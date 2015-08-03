@@ -7,4 +7,24 @@ Lobotomoy is an Android security toolkit with many features that automate differ
 - APK decompilation
 - APK conversion with Dex2Jar
 - Convert APK to a debuggable APK
+- APK Profiler
+- Enumerate attack surface:
+  - Intent Filters 
+  - URL Schemes
+  - Exported Components
+- Enumerate components:
+  - Activities 
+  - Broadcast Receivers
+  - Services
+  - Content Providers
+- Enumerate permissions
+- Map permissions to API usage
+- Bowser toolkit:
+  - Enumerates methods: 
+    - parseUri() 
+    - loadUrl() 
+    - addJavascriptInterface()
+  - Triggers parseUri()
+- Logcat wrapper
+- Instrumentation with Frida
 
