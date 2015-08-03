@@ -1,6 +1,12 @@
 .idea/*
 *.pyc
+<<<<<<< HEAD
 *.DS_Store
+=======
+.DS_Store
+androguard.egg-info/*
+androguard/*
+>>>>>>> 999a94a435a74cf11200441e31dad47281189e75
 apktool.jar
 build/*
 dex2jar-2.0/*
