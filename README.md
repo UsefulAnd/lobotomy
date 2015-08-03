@@ -29,22 +29,14 @@ Lobotomoy is an Android security toolkit that will automate different Android as
 - Instrumentation with Frida
 - Web UI and Services
 
-## Installation
+## Installation and Setup
 
-- Lobotomy was developed on Homebrew's Python 2.7.*, but should still work on other flavors of NIX.
-- Building the apktool requires Java
+- Lobotomy requires Python2
+- Building the **apktool** requires Java
+- Lobotomy assumes that you have already downloaded the Android SDK and added the following tools to your path: 
+  - adb  
 
-### OS X
-
-Download Hombrew:  
-
-```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ```
-
-Download Python: 
-
-```brew install python ```
-
-Run Setup: 
+### Run Setup: 
 
 ```./setup.sh ```
 
