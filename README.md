@@ -31,8 +31,9 @@ Lobotomoy is an Android security toolkit that will automate different Android as
 
 ## Installation
 
-Lobotomy was developed on Homebrew's Python 2.7.*, but should still work on other flavors of NIX.
-
+- Lobotomy was developed on Homebrew's Python 2.7.*, but should still work on other flavors of NIX.
+- Building the apktool requires Java
+-
 ### OS X
 
 Download Hombrew:  
@@ -46,4 +47,8 @@ Download Python:
 Run Setup: 
 
 ```./setup.sh ```
+
+## Issues 
+
+Androguard's current MASTER seems to have internal broken import paths.  This unfortunately breaks the ability to use it within Lobotomy as the core functionality for loading an APK.  We have included the working build in this repository so that Lobotomy can still remain stable and will upate accordingly if any fix is identified.
 
