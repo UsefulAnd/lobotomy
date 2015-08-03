@@ -31,7 +31,9 @@ Lobotomoy is an Android security toolkit with many features that automate differ
 
 ## Installation
 
-Lobotomy was developed on Homebrew's Python 2.7.*  
+Lobotomy was developed on Homebrew's Python 2.7.*, but should still work on other flavors of NIX.
+
+### OS X
 
 Download Hombrew:  
 
@@ -41,7 +43,7 @@ Download Python:
 
 ```brew install python ```
 
-Run setup: 
+Run Setup: 
 
 ```./setup.sh ```
 
