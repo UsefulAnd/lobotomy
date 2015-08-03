@@ -26,7 +26,6 @@ class D2J(object):
               self.apk)
 
         try:
-
             Popen(["{0} output/d2j/{1}.jar {2}".format(D2JEnum.commands.get("decompile"),
                                                        self.directory, self.apk)],
                   shell=True).wait()
