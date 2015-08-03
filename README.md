@@ -31,8 +31,8 @@ Lobotomoy is an Android security toolkit that will automate different Android as
 
 ## Installation and Setup
 
-- Lobotomy was built upon Python 2.7.9 and was also validated against 2.7.10
-- Building the **apktool** requires Java
+- Lobotomy was built upon **Python 2.7.9** and was also validated against **2.7.10**
+- Building the **apktool** requires Java and has been validated against 1.8
 - Lobotomy assumes that you have already downloaded the Android SDK and added the following tools to your path: 
   - adb  
 
