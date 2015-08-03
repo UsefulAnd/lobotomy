@@ -1,5 +1,6 @@
 .idea/*
 *.pyc
+.DS_Store
 androguard.egg-info/*
 androguard/*
 apktool.jar
