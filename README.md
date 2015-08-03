@@ -34,11 +34,14 @@ Lobotomoy is an Android security toolkit with many features that automate differ
 Lobotomy was developed on Homebrew's Python 2.7.*  
 
 Download Hombrew:  
+
 ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ```
 
 Download Python: 
+
 ```brew install python ```
 
 Run setup: 
+
 ```./setup.sh ```
 
