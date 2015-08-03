@@ -42,5 +42,5 @@ Lobotomoy is an Android security toolkit that will automate different Android as
 
 ## Issues 
 
-Androguard's current MASTER seems to have internal broken import paths.  This unfortunately breaks the ability to use it within Lobotomy as the core functionality for loading an APK.  We have included the working build in this repository so that Lobotomy can still remain stable and will upate accordingly if any fix is identified.
+* Androguard's current MASTER seems to have internal broken import paths.  This unfortunately breaks the ability to use it within Lobotomy as the core functionality for loading an APK.  We have included the working build in this repository so that Lobotomy can still remain stable and will upate accordingly if any fix is identified. *
 
