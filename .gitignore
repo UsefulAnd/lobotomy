@@ -1,7 +1,6 @@
 .idea/*
 *.pyc
-androguard.egg-info/*
-androguard/*
+*.DS_Store
 apktool.jar
 build/*
 dex2jar-2.0/*
