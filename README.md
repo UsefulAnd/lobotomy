@@ -75,5 +75,5 @@ Make sure you change the IP in **framework/config** to your local network IP.  T
 
 *Androguard's current MASTER seems to have internal broken import paths.  This unfortunately breaks the ability to use it within Lobotomy as the core functionality for loading an APK.*
 
-*We have included the working 1.9 build in this repository so that Lobotomy can still remain stable.*
+*We have included the working **1.9** build in this repository so that Lobotomy can still remain stable.*
 
