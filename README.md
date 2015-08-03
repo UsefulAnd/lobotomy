@@ -33,7 +33,7 @@ Lobotomoy is an Android security toolkit that will automate different Android as
 
 - Lobotomy was developed on Homebrew's Python 2.7.*, but should still work on other flavors of NIX.
 - Building the apktool requires Java
--
+
 ### OS X
 
 Download Hombrew:  
