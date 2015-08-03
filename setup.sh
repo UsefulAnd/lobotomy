@@ -6,8 +6,13 @@ pip2.7 install --upgrade pip
 # Install requirements
 pip2.7 install -r requirements
 
-# Setup androguard
-python androguard/setup.py install
+# Download Androguard
+git clone https://github.com/androguard/androguard.git
+
+# Setup Androguard
+cd androguard
+python setup.py install
+cd ..
 
 # Download and build apktool
 git clone git://github.com/iBotPeaches/Apktool.git
