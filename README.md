@@ -1,6 +1,12 @@
 # Lobotomy
 
-Lobotomoy is an Android security toolkit that will automate different Android assessments and reverse engineering tasks.  The goal of the Lobotomy toolkit is to provide a console environment, which would allow a user to load their target Android APK once, then have all the necessary tools without needing to exit that environment.  Lobotomy leverages and provides wrappers around other popular tools such as **Androguard**, **apktool**, **Dex2Jar**, and **Frida**.  
+Lobotomoy is an Android security toolkit that will automate different Android assessments and reverse engineering tasks.  The goal of the Lobotomy toolkit is to provide a console environment, which would allow a user to load their target Android APK once, then have all the necessary tools without needing to exit that environment.  
+
+Lobotomy leverages and provides wrappers around other popular tools such as: 
+- **Androguard**
+- **apktool**
+- **Dex2Jar**
+- **Frida**
 
 ## Features
 
