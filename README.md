@@ -37,6 +37,8 @@ Download Hombrew:
 ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ```
 
 Download Python: 
-
 ```brew install python```
+
+Run setup: 
+```./setup.sh```
 
