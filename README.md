@@ -12,12 +12,12 @@ Lobotomoy is an Android security toolkit with many features that automate differ
   - Intent Filters 
   - URL Schemes
   - Exported Components
-- Enumerate components:
+- Enumerate application components:
   - Activities 
   - Broadcast Receivers
   - Services
   - Content Providers
-- Enumerate permissions
+- Enumerate application permissions
 - Map permissions to API usage
 - Bowser toolkit:
   - Enumerates methods: 
