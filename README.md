@@ -72,6 +72,24 @@ Make sure you change the IP in **framework/config** to your local network IP.  T
 
 ## Usage
 
+### Help
+
+```
+(lobotomy) help
+
+Documented commands (type help <topic>):
+----------------------------------------
+_load           components  edit     li      pause        run        show
+_relative_load  d2j         frida    list    permissions  save
+attacksurface   debuggable  hi       load    profiler     set
+bowser          decompile   history  loader  py           shell
+cmdenvironment  ed          l        logcat  r            shortcuts
+
+Undocumented commands:
+----------------------
+EOF  eof  exit  help  q  quit
+```
+
 ### Start Web Server
 
 ```
