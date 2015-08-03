@@ -1,0 +1,51 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Logcat{% endblock %}
+<head>
+    <link href="/static/logcat.css" rel="stylesheet">
+</head>
+{% block content %}
+<body role="document">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button"
+                        class="navbar-toggle collapsed"
+                        data-toggle="collapse"
+                        data-target="#navbar"
+                        aria-expanded="false"
+                        aria-controls="navbar">
+                </button>
+                <a class="navbar-brand" href="/ui/home">Lobotomy</a>
+            </div>
+            <div id="navbar" cass="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="/ui/home">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="/ui/logcat">Logcat</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <pre style="color: green; margin-top: 10%">
+
+                  :                   :                  :
+                 t#,                 t#,                t#,
+            i   ;##W.   .           ;##W.              ;##W.
+           LE  :#L:WE   Ef.        :#L:WE  GEEEEEEEL  :#L:WE             ..       : f.     ;WE.
+          L#E .KG  ,#D  E#Wi      .KG  ,#D ,;;L#K;;. .KG  ,#D           ,W,     .Et E#,   i#G
+         G#W. EE    ;#f E#K#D:    EE    ;#f   t#E    EE    ;#f         t##,    ,W#t E#t  f#f
+        D#K. f#.     t#iE#t,E#f. f#.     t#i  t#E   f#.     t#i       L###,   j###t E#t G#i
+       E#K.  :#G     GK E#WEE##Wt:#G     GK   t#E   :#G     GK      .E#j##,  G#fE#t E#jEW,
+     .E#E.    ;#L   LW. E##Ei;;;;.;#L   LW.   t#E    ;#L   LW.     ;WW; ##,:K#i E#t E##E.
+    .K#E       t#f f#:  E#DWWt     t#f f#:    t#E     t#f f#:     j#E.  ##f#W,  E#t E#G
+   .K#D         f#D#;   E#t f#K;    f#D#;     t#E      f#D#;    .D#L    ###K:   E#t E#t
+  .W#G           G#t    E#Dfff##E,   G#t      t#E       G#t    :K#t     ##D.    E#t E#t
+ :W##########Wt   t     jLLLLLLLLL;   t        fE        t     ...      #G      ..  EE.
+ :,,,,,,,,,,,,,.                                :                       j           t
+
+        </pre>
+    </div>
+</body>
+{% endblock %}

@@ -1,0 +1,44 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Logcat{% endblock %}
+<head>
+    <link href="/static/logcat.css" rel="stylesheet">
+</head>
+{% block content %}
+<body role="document">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button"
+                        class="navbar-toggle collapsed"
+                        data-toggle="collapse"
+                        data-target="#navbar"
+                        aria-expanded="false"
+                        aria-controls="navbar">
+                </button>
+                <a class="navbar-brand" href="/ui/home">Lobotomy</a>
+            </div>
+            <div id="navbar" cass="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="/ui/home">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="/ui/logcat">Logcat</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1 style="margin-top: 10%">Logcat Viewer</h1>
+        <button type="button" class="btn btn-lg btn-success" onclick="location.reload()">Refresh</button>
+        <div class="col-md-20" style="margin-top: 1%">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <pre> {{ logs}} </pre>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+{% endblock %}

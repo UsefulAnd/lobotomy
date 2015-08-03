@@ -1,0 +1,386 @@
+I/ActivityManager( 1011): Start proc com.lge.sync for broadcast com.lge.sync/.StartReceiver: pid=1988 uid=1000 gids={41000, 1028, 1015, 3003, 3002, 3001, 1007, 1002, 3008, 1023, 1004, 2002, 1026, 3005, 1009, 1027, 1010, 5000, 2001, 4002, 1021, 3004, 1000, 3009}
+I/ActivityManager( 1011): Start proc com.lge.qremote for broadcast com.lge.qremote/.settings.WiFiStateReceiver: pid=2008 uid=10033 gids={50033, 1023, 1028, 1015, 3003, 3002}
+I/ActivityManager( 1011): Killing 967:com.google.android.setupwizard/u0a45 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Killing 994:com.android.chrome/u0a58 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.uei.lg.quicksetsdk.lite for service com.uei.lg.quicksetsdk.lite/com.uei.control.Service: pid=2037 uid=10101 gids={50101, 3003, 1028, 1015}
+I/ActivityManager( 1011): Killing 1040:com.lge.drmservice/u0a61 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.att.android.digitallocker for broadcast com.att.android.digitallocker/.utils.ConnectionMonitor: pid=2102 uid=10003 gids={50003, 3003, 1028, 1015}
+I/ActivityManager( 1011): Killing 547:com.lge.sizechangable.weather/u0a84 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc android.process.media for broadcast com.android.providers.downloads/.DownloadReceiver: pid=2159 uid=10022 gids={50022, 1023, 1028, 1015, 1024, 2001, 3003, 3007, 4002}
+I/ActivityManager( 1011): Start proc com.lge.email for broadcast com.lge.email/.adapter.eas.EasBroadcastReceiver: pid=2180 uid=10023 gids={50023, 3003, 4002, 1023, 1028, 1015, 3001, 3002}
+I/ActivityManager( 1011): Killing 1075:com.lge.wireless_storage/u0a87 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.google.android.setupwizard for broadcast com.google.android.setupwizard/.MobileConnectivityChangeReceiver: pid=2210 uid=10045 gids={50045, 3003}
+I/ActivityManager( 1011): Killing 1088:com.google.android.apps.magazines/u0a91 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Killing 30230:com.lge.lgdmsclient/5000 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.android.chrome for broadcast com.android.chrome/com.google.android.apps.chrome.precache.PrecacheServiceLauncher: pid=2228 uid=10058 gids={50058, 3003, 1028, 1015}
+I/ActivityManager( 1011): Killing 1124:com.google.android.apps.plus/u0a98 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.lge.drmservice for broadcast com.lge.drmservice/.DrmBroadcastReceiver: pid=2256 uid=10061 gids={50061, 4002, 3003, 1028}
+I/ActivityManager( 1011): Killing 1148:com.google.android.youtube/u0a112 (adj 15): empty #14
+V/ActivityManager( 1011): Service ServiceRecord{42a0d638 u0 com.google.android.youtube/com.google.android.apps.youtube.core.transfer.DownloadService} in process ProcessRecord{425ae5a8 1148:com.google.android.youtube/u0a112} not same as in map: null
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.lge.lgdmsclient for broadcast com.lge.lgdmsclient/.dmclient.receiver.DmDeviceActionReceiver: pid=2270 uid=5000 gids={45000, 3003, 1028, 1015, 4002, 2001}
+I/ActivityManager( 1011): Killing 1607:com.google.android.talk/u0a71 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.lge.sizechangable.weather for broadcast com.lge.sizechangable.weather/.layout.WeatherWidget: pid=2285 uid=10084 gids={50084, 3003, 1028, 1015}
+I/ActivityManager( 1011): Killing 1454:com.famigo.sandbox/u0a9 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.lge.wireless_storage for broadcast com.lge.wireless_storage/.NetworkReceiver: pid=2301 uid=10087 gids={50087, 1028, 1015, 3003}
+I/ActivityManager( 1011): Killing 1988:com.lge.sync/1000 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.google.android.apps.magazines for broadcast com.google.android.apps.magazines/com.google.apps.dots.android.newsstand.appwidget.NewsWidgetProvider: pid=2315 uid=10091 gids={50091, 3003, 1028, 1015}
+I/ActivityManager( 1011): Killing 1402:com.lge.p2pclients.tethering/u0a81 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.google.android.apps.plus for broadcast com.google.android.apps.plus/.service.ConnectivityReceiver: pid=2373 uid=10098 gids={50098, 3003, 3002, 1028, 1015}
+I/ActivityManager( 1011): Killing 2037:com.uei.lg.quicksetsdk.lite/u0a101 (adj 15): empty #14
+W/ActivityManager( 1011): Scheduling restart of crashed service com.uei.lg.quicksetsdk.lite/com.uei.control.Service in 1000ms
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.uei.lg.quicksetsdk.lite for service com.uei.lg.quicksetsdk.lite/com.uei.control.Service: pid=2386 uid=10101 gids={50101, 3003, 1028, 1015}
+I/ActivityManager( 1011): Start proc com.google.android.youtube for broadcast com.google.android.youtube/com.google.android.apps.youtube.app.prefetch.PrefetchService$DeviceStateReceiver: pid=2407 uid=10112 gids={50112, 3003, 1028, 1015}
+I/ActivityManager( 1011): Killing 2008:com.lge.qremote/u0a33 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Killing 1440:com.lge.clock/u0a14 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Killing 2102:com.att.android.digitallocker/u0a3 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.lge.p2pclients.tethering for broadcast com.lge.p2p/com.lge.p2pclients.tethering.P2pTetheringReceiver: pid=2478 uid=10081 gids={50081, 3003, 3001, 3002, 1028, 1015}
+I/ActivityManager( 1011): Killing 2180:com.lge.email/u0a23 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.famigo.sandbox for broadcast com.famigo.sandbox/.receiver.SyncReceiver: pid=2511 uid=10009 gids={50009, 3003, 1028, 1015}
+I/ActivityManager( 1011): Start proc com.lge.clock for broadcast com.lge.clock/.widget.DigitalAppWidgetProvider: pid=2536 uid=10014 gids={50014, 3003, 1028, 4002}
+I/ActivityManager( 1011): Killing 2210:com.google.android.setupwizard/u0a45 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.android.calendar for broadcast com.android.calendar/.widget.CalendarAppWidgetProvider: pid=2664 uid=10017 gids={50017, 3003, 1028, 1015}
+I/ActivityManager( 1011): Start proc com.lge.email for broadcast com.lge.email/.receiver.UpdateScheduleReceiver: pid=2687 uid=10023 gids={50023, 3003, 4002, 1023, 1028, 1015, 3001, 3002}
+I/ActivityManager( 1011): Killing 2228:com.android.chrome/u0a58 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.lge.task:remote for broadcast com.lge.task/.receiver.ReceiverCommon: pid=2713 uid=10037 gids={50037, 3003, 1028, 1015}
+I/ActivityManager( 1011): Killing 2285:com.lge.sizechangable.weather/u0a84 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.qualcomm.timeservice for broadcast com.qualcomm.timeservice/.TimeServiceBroadcastReceiver: pid=2729 uid=10110 gids={50110}
+I/ActivityManager( 1011): Killing 2301:com.lge.wireless_storage/u0a87 (adj 15): empty #14
+I/ActivityManager( 1011): Start proc com.lge.task for content provider com.lge.task/.database.TasksProvider: pid=2742 uid=10037 gids={50037, 3003, 1028, 1015}
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Killing 2315:com.google.android.apps.magazines/u0a91 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Killing 2159:android.process.media/u0a22 (adj 13): empty #14
+I/ActivityManager( 1011): Start proc com.lge.sizechangable.weather for broadcast com.lge.sizechangable.weather/.layout.WeatherWidget: pid=2766 uid=10084 gids={50084, 3003, 1028, 1015}
+I/ActivityManager( 1011): Killing 2664:com.android.calendar/u0a17 (adj 13): depends on provider com.android.providers.media/.MediaProvider in dying proc android.process.media
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.google.android.talk for broadcast com.google.android.talk/com.google.android.apps.babel.sms.SmsDeliverReceiver: pid=2805 uid=10071 gids={50071, 3003, 1028, 1015, 3002}
+I/ActivityManager( 1011): Killing 2373:com.google.android.apps.plus/u0a98 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.lge.p2p.msg for broadcast com.lge.p2p/.msg.transaction.MsgReceiver_phone: pid=2871 uid=10081 gids={50081, 3003, 3001, 3002, 1028, 1015}
+I/ActivityManager( 1011): Killing 2386:com.uei.lg.quicksetsdk.lite/u0a101 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc android.process.media for broadcast com.android.providers.media/.MtpReceiver: pid=2919 uid=10022 gids={50022, 1023, 1028, 1015, 1024, 2001, 3003, 3007, 4002}
+I/ActivityManager( 1011): Start proc com.lge.sync for broadcast com.lge.sync/.StartReceiver: pid=2969 uid=1000 gids={41000, 1028, 1015, 3003, 3002, 3001, 1007, 1002, 3008, 1023, 1004, 2002, 1026, 3005, 1009, 1027, 1010, 5000, 2001, 4002, 1021, 3004, 1000, 3009}
+I/ActivityManager( 1011): Killing 2407:com.google.android.youtube/u0a112 (adj 15): empty #14
+V/ActivityManager( 1011): Service ServiceRecord{429913b8 u0 com.google.android.youtube/com.google.android.apps.youtube.core.transfer.DownloadService} in process ProcessRecord{426ae5f8 2407:com.google.android.youtube/u0a112} not same as in map: null
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Killing 2256:com.lge.drmservice/u0a61 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.android.chrome for broadcast com.android.chrome/com.google.android.apps.chrome.precache.PrecacheServiceLauncher: pid=2988 uid=10058 gids={50058, 3003, 1028, 1015}
+I/ActivityManager( 1011): Start proc com.google.android.apps.plus for broadcast com.google.android.apps.plus/.iu.InstantUploadEnvironment$BatteryReceiver: pid=3001 uid=10098 gids={50098, 3003, 3002, 1028, 1015}
+I/ActivityManager( 1011): Killing 2713:com.lge.task:remote/u0a37 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Start proc com.google.android.youtube for broadcast com.google.android.youtube/com.google.android.apps.youtube.app.prefetch.PrefetchService$DeviceStateReceiver: pid=3020 uid=10112 gids={50112, 3003, 1028, 1015}
+I/ActivityManager( 1011): Killing 2729:com.qualcomm.timeservice/u0a110 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+I/ActivityManager( 1011): Killing 2742:com.lge.task/u0a37 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Going to sleep and all paused
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (in existing)
+D/ActivityManager( 1011): resumeTopActivityLocked: Resumed ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+I/ActivityManager( 1011): Start proc com.android.browser:sandboxed_process4 for service com.android.browser/org.chromium.content.app.SandboxedProcessService4: pid=3183 uid=99006 gids={}
+I/ActivityManager( 1011): Start proc com.android.browser:sandboxed_process5 for service com.android.browser/org.chromium.content.app.SandboxedProcessService5: pid=3198 uid=99007 gids={}
+I/ActivityManager( 1011): Process com.android.browser:sandboxed_process4 (pid 3183) has died.
+W/ActivityManager( 1011): Scheduling restart of crashed service com.android.browser/org.chromium.content.app.SandboxedProcessService4 in 1000ms
+D/ActivityManager( 1011): resumeTopActivityLocked: Top activity resumed ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+I/ActivityManager( 1011): moveTaskToBack: 5
+I/ActivityManager( 1011): moveTaskToBack numTasks : 1 TaskRecord{429b6130 #5 A=android.task.browser U=0 sz=1}
+D/ActivityManager( 1011): pauseBackStacks: stack=ActivityStack{427291e8 stackId=4, 1 tasks} mResumedActivity=ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (pause complete)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (in existing)
+I/ActivityManager( 1011): Relaunching to RESUMED ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+I/ActivityManager( 1011): Activity config changed during resume: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}, new next: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+I/ActivityManager( 1011): Killing 7432:com.android.browser:sandboxed_process3/u0a15i5 (adj 0): isolated not needed
+D/ActivityManager( 1011): resumeTopActivityLocked: Top activity resumed ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+I/ActivityManager( 1011): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.lge.launcher2/.Launcher} from pid 1011
+I/ActivityManager( 1011): ActivityRecord{41b96978 u0 com.lge.launcher2/.Launcher t-1} Support Split:false Is ScreenFull:true
+D/ActivityManager( 1011): resumeTopActivityLocked: Top activity resumed ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (stop complete)
+I/ActivityManager( 1011): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[1120,231][1276,330]} from pid 1547
+I/ActivityManager( 1011): ActivityRecord{41b72100 u0 com.android.browser/.BrowserActivity t-1} Support Split:true Is ScreenFull:true
+D/ActivityManager( 1011): pauseBackStacks: stack=ActivityStack{41d84980 stackId=0, 1 tasks} mResumedActivity=ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} state=PAUSING
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: some activity pausing.
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} state=PAUSING
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (pause complete)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (in existing)
+D/ActivityManager( 1011): resumeTopActivityLocked: Resumed ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+W/ActivityManager( 1011): Unable to start service Intent { act=com.lge.appbox.commonservice.update (has extras) } U=0: not found
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (stop complete)
+I/ActivityManager( 1011): moveTaskToBack: 5
+I/ActivityManager( 1011): moveTaskToBack numTasks : 1 TaskRecord{429b6130 #5 A=android.task.browser U=0 sz=1}
+D/ActivityManager( 1011): pauseBackStacks: stack=ActivityStack{427291e8 stackId=4, 1 tasks} mResumedActivity=ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (pause complete)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (in existing)
+D/ActivityManager( 1011): resumeTopActivityLocked: Resumed ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (stop complete)
+I/ActivityManager( 1011): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[1120,231][1276,330]} from pid 1547
+I/ActivityManager( 1011): ActivityRecord{41b72100 u0 com.android.browser/.BrowserActivity t-1} Support Split:true Is ScreenFull:true
+D/ActivityManager( 1011): pauseBackStacks: stack=ActivityStack{41d84980 stackId=0, 1 tasks} mResumedActivity=ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} state=PAUSING
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: some activity pausing.
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} state=PAUSING
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (pause complete)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (in existing)
+D/ActivityManager( 1011): resumeTopActivityLocked: Resumed ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+W/ActivityManager( 1011): Unable to start service Intent { act=com.lge.appbox.commonservice.update (has extras) } U=0: not found
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (stop complete)
+I/ActivityManager( 1011): moveTaskToBack: 5
+I/ActivityManager( 1011): moveTaskToBack numTasks : 1 TaskRecord{429b6130 #5 A=android.task.browser U=0 sz=1}
+D/ActivityManager( 1011): pauseBackStacks: stack=ActivityStack{427291e8 stackId=4, 1 tasks} mResumedActivity=ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (pause complete)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (in existing)
+D/ActivityManager( 1011): resumeTopActivityLocked: Resumed ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (stop complete)
+I/ActivityManager( 1011): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[1120,231][1276,330]} from pid 1547
+I/ActivityManager( 1011): ActivityRecord{41b72100 u0 com.android.browser/.BrowserActivity t-1} Support Split:true Is ScreenFull:true
+D/ActivityManager( 1011): pauseBackStacks: stack=ActivityStack{41d84980 stackId=0, 1 tasks} mResumedActivity=ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} state=PAUSING
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: some activity pausing.
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} state=PAUSING
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (pause complete)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (in existing)
+D/ActivityManager( 1011): resumeTopActivityLocked: Resumed ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+W/ActivityManager( 1011): Unable to start service Intent { act=com.lge.appbox.commonservice.update (has extras) } U=0: not found
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (stop complete)
+I/ActivityManager( 1011): Start proc com.lge.qmemoplus.quickmode for broadcast com.lge.qmemoplus/.quickmode.QuickModeReceiver: pid=4152 uid=1000 gids={41000, 1028, 1015, 3003, 3002, 3001, 1007, 1002, 3008, 1023, 1004, 2002, 1026, 3005, 1009, 1027, 1010, 5000, 2001, 4002, 1021, 3004, 1000, 3009}
+I/ActivityManager( 1011): START u0 {act=com.lge.qmemoplus.action.LAUNCH_QUICKMODE flg=0x30810000 cmp=com.lge.qmemoplus/.quickmode.QuickModeActivity (has extras)} from pid 4152
+I/ActivityManager( 1011): ActivityRecord{4258a888 u0 com.lge.qmemoplus/.quickmode.QuickModeActivity t-1} Support Split:false Is ScreenFull:true
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+D/ActivityManager( 1011): resumeTopActivityLocked: Pausing null
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} state=PAUSING
+I/ActivityManager( 1011): Config changes=480 {1.0 310mcc410mnc en_US ldltr sw600dp w600dp h885dp 213dpi lrg port finger -keyb/v/h -nav/h s.13fontTypeIndex0}
+I/ActivityManager( 1011): Killing 31426:com.google.android.gms/u0a10 (adj 15): empty #14
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} state=PAUSING
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: some activity pausing.
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (pause complete)
+D/ActivityManager( 1011): resumeTopActivityLocked: Restarting ActivityRecord{4258a888 u0 com.lge.qmemoplus/.quickmode.QuickModeActivity t7}
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{4258a888 u0 com.lge.qmemoplus/.quickmode.QuickModeActivity t7} (starting new instance)
+W/ActivityManager( 1011): Unable to start service Intent { act=com.lge.appbox.commonservice.update (has extras) } U=0: not found
+I/ActivityManager( 1011): Config changes=480 {1.0 310mcc410mnc en_US ldltr sw600dp w961dp h525dp 213dpi lrg land finger -keyb/v/h -nav/h s.14fontTypeIndex0}
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (stop complete)
+V/ActivityManager( 1011): Finishing activity token=Token{42475380 ActivityRecord{4258a888 u0 com.lge.qmemoplus/.quickmode.QuickModeActivity t7}} r=, result=0, data=null, reason=app-request
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{4258a888 u0 com.lge.qmemoplus/.quickmode.QuickModeActivity t7 f}
+I/ActivityManager( 1011): Config changes=480 {1.0 310mcc410mnc en_US ldltr sw600dp w600dp h885dp 213dpi lrg port finger -keyb/v/h -nav/h s.15fontTypeIndex0}
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{4258a888 u0 com.lge.qmemoplus/.quickmode.QuickModeActivity t7 f} (pause complete)
+V/ActivityManager( 1011): Moving to FINISHING: ActivityRecord{4258a888 u0 com.lge.qmemoplus/.quickmode.QuickModeActivity t7 f}
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{4258a888 u0 com.lge.qmemoplus/.quickmode.QuickModeActivity t7 f} state=FINISHING
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: some activity pausing.
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (in existing)
+D/ActivityManager( 1011): resumeTopActivityLocked: Resumed ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+V/ActivityManager( 1011): Moving to DESTROYING: ActivityRecord{4258a888 u0 com.lge.qmemoplus/.quickmode.QuickModeActivity t7 f} (destroy requested)
+V/ActivityManager( 1011): Moving to DESTROYED: ActivityRecord{4258a888 u0 com.lge.qmemoplus/.quickmode.QuickModeActivity t7 f} (removed from history)
+D/ActivityManager( 1011): resumeTopActivityLocked: Top activity resumed ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+I/ActivityManager( 1011): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.lge.launcher2/.Launcher} from pid 1011
+I/ActivityManager( 1011): ActivityRecord{41b81260 u0 com.lge.launcher2/.Launcher t-1} Support Split:false Is ScreenFull:true
+D/ActivityManager( 1011): pauseBackStacks: stack=ActivityStack{427291e8 stackId=4, 1 tasks} mResumedActivity=ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} state=PAUSING
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: some activity pausing.
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} state=PAUSING
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (pause complete)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (in existing)
+I/ActivityManager( 1011): Relaunching to RESUMED ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+I/ActivityManager( 1011): Activity config changed during resume: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}, new next: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (stop complete)
+W/ActivityManager( 1011): Unable to start service Intent { act=com.lge.mrg.service.intent.action.APPEND_USER_LOG (has extras) } U=0: not found
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (pause complete)
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (stop complete)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (in existing)
+D/ActivityManager( 1011): resumeTopActivityLocked: Resumed ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+I/ActivityManager( 1011): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[456,1100][570,1212]} from pid 1547
+I/ActivityManager( 1011): ActivityRecord{42ab31c8 u0 com.android.browser/.BrowserActivity t-1} Support Split:true Is ScreenFull:true
+D/ActivityManager( 1011): pauseBackStacks: stack=ActivityStack{41d84980 stackId=0, 1 tasks} mResumedActivity=ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} state=PAUSING
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: some activity pausing.
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} state=PAUSING
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (pause complete)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (in existing)
+D/ActivityManager( 1011): resumeTopActivityLocked: Resumed ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+W/ActivityManager( 1011): Unable to start service Intent { act=com.lge.appbox.commonservice.update (has extras) } U=0: not found
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (stop complete)
+I/ActivityManager( 1011): START u0 {cmp=com.android.browser/com.lge.browser.settings.BrowserPreferencesPage (has extras)} from pid 3507
+I/ActivityManager( 1011): ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t-1} Support Split:true Is ScreenFull:true
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+D/ActivityManager( 1011): resumeTopActivityLocked: Pausing null
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} state=PAUSING
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (pause complete)
+D/ActivityManager( 1011): resumeTopActivityLocked: Restarting ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5}
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5} (starting new instance)
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (stop complete)
+I/ActivityManager( 1011): START u0 {act=android.intent.action.MAIN cmp=com.android.browser/com.lge.browser.settings.BrowserPreferencesPage (has extras)} from pid 3507
+I/ActivityManager( 1011): ActivityRecord{41b7f2d0 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t-1} Support Split:true Is ScreenFull:true
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5}
+D/ActivityManager( 1011): resumeTopActivityLocked: Pausing null
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5} state=PAUSING
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5} (pause complete)
+D/ActivityManager( 1011): resumeTopActivityLocked: Restarting ActivityRecord{41b7f2d0 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5}
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{41b7f2d0 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5} (starting new instance)
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5} (stop complete)
+V/ActivityManager( 1011): Finishing activity token=Token{42bc3e48 ActivityRecord{41b7f2d0 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5}} r=, result=0, data=null, reason=app-request
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{41b7f2d0 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f}
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{41b7f2d0 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f} (pause complete)
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{41b7f2d0 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f} (finish requested)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5} (in existing)
+D/ActivityManager( 1011): resumeTopActivityLocked: Resumed ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5}
+V/ActivityManager( 1011): Moving to FINISHING: ActivityRecord{41b7f2d0 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f}
+V/ActivityManager( 1011): Moving to DESTROYING: ActivityRecord{41b7f2d0 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f} (destroy requested)
+V/ActivityManager( 1011): Moving to DESTROYED: ActivityRecord{41b7f2d0 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f} (removed from history)
+D/ActivityManager( 1011): resumeTopActivityLocked: Top activity resumed ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5}
+I/ActivityManager( 1011): START u0 {act=android.intent.action.MAIN cmp=com.android.browser/com.lge.browser.settings.BrowserPreferencesPage (has extras)} from pid 3507
+I/ActivityManager( 1011): ActivityRecord{41b81260 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t-1} Support Split:true Is ScreenFull:true
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5}
+D/ActivityManager( 1011): resumeTopActivityLocked: Pausing null
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5} state=PAUSING
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5} (pause complete)
+D/ActivityManager( 1011): resumeTopActivityLocked: Restarting ActivityRecord{41b81260 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5}
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{41b81260 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5} (starting new instance)
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5} (stop complete)
+V/ActivityManager( 1011): Finishing activity token=Token{42069030 ActivityRecord{41b81260 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5}} r=, result=0, data=null, reason=app-request
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{41b81260 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f}
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{41b81260 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f} (pause complete)
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{41b81260 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f} (finish requested)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5} (in existing)
+D/ActivityManager( 1011): resumeTopActivityLocked: Resumed ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5}
+V/ActivityManager( 1011): Moving to FINISHING: ActivityRecord{41b81260 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f}
+V/ActivityManager( 1011): Moving to DESTROYING: ActivityRecord{41b81260 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f} (destroy requested)
+V/ActivityManager( 1011): Moving to DESTROYED: ActivityRecord{41b81260 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f} (removed from history)
+D/ActivityManager( 1011): resumeTopActivityLocked: Top activity resumed ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5}
+V/ActivityManager( 1011): Finishing activity token=Token{426c0460 ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5}} r=, result=0, data=null, reason=app-request
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f}
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f} (pause complete)
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f} (finish requested)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (in existing)
+D/ActivityManager( 1011): resumeTopActivityLocked: Resumed ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+V/ActivityManager( 1011): Moving to FINISHING: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f}
+V/ActivityManager( 1011): Moving to DESTROYING: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f} (destroy requested)
+V/ActivityManager( 1011): Moving to DESTROYED: ActivityRecord{41b7c018 u0 com.android.browser/com.lge.browser.settings.BrowserPreferencesPage t5 f} (removed from history)
+D/ActivityManager( 1011): resumeTopActivityLocked: Top activity resumed ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+I/ActivityManager( 1011): moveTaskToBack: 5
+I/ActivityManager( 1011): moveTaskToBack numTasks : 1 TaskRecord{429b6130 #5 A=android.task.browser U=0 sz=1}
+D/ActivityManager( 1011): pauseBackStacks: stack=ActivityStack{427291e8 stackId=4, 1 tasks} mResumedActivity=ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5}
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (pause complete)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (in existing)
+D/ActivityManager( 1011): resumeTopActivityLocked: Resumed ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{4273d250 u0 com.android.browser/.BrowserActivity t5} (stop complete)
+W/ActivityManager( 1011): Unable to start service Intent { act=com.lge.mrg.service.intent.action.APPEND_USER_LOG (has extras) } U=0: not found
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (pause complete)
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (stop complete)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (in existing)
+D/ActivityManager( 1011): resumeTopActivityLocked: Resumed ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+I/ActivityManager( 1547): Timeline: Activity_idle id: android.os.BinderProxy@41b3b4d0 time:345124768
+I/ActivityManager( 1547): Timeline: Activity_launch_request id:com.synchronoss.dcs.att.r2g time:345138872
+I/ActivityManager( 1011): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.synchronoss.dcs.att.r2g/.ATTSplash} from pid 1547
+I/ActivityManager( 1011): ActivityRecord{41b7f2d0 u0 com.synchronoss.dcs.att.r2g/.ATTSplash t-1} Support Split:false Is ScreenFull:true
+D/ActivityManager( 1011): pauseBackStacks: stack=ActivityStack{41d84980 stackId=0, 1 tasks} mResumedActivity=ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1}
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} state=PAUSING
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (pause complete)
+D/ActivityManager( 1011): resumeTopActivityLocked: Restarting ActivityRecord{41b7f2d0 u0 com.synchronoss.dcs.att.r2g/.ATTSplash t8}
+I/ActivityManager( 1011): Start proc com.synchronoss.dcs.att.r2g for activity com.synchronoss.dcs.att.r2g/.ATTSplash: pid=5284 uid=10004 gids={50004, 1028, 1015, 3003}
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (stop requested)
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{41b7f2d0 u0 com.synchronoss.dcs.att.r2g/.ATTSplash t8} (starting new instance)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{41e8ba80 u0 com.lge.launcher2/.Launcher t1} (stop complete)
+I/ActivityManager( 5284): Timeline: Activity_idle id: android.os.BinderProxy@41b37708 time:345140940
+I/ActivityManager( 1011): Displayed com.synchronoss.dcs.att.r2g/.ATTSplash: +1s993ms
+I/ActivityManager( 1011): Timeline: Activity_windows_visible id: ActivityRecord{41b7f2d0 u0 com.synchronoss.dcs.att.r2g/.ATTSplash t8} time:345140954
+I/ActivityManager( 5284): Timeline: Activity_launch_request id:com.synchronoss.dcs.att.r2g time:345144847
+I/ActivityManager( 1011): START u0 {cmp=com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.DCSWifiNetworkSelector} from pid 5284
+I/ActivityManager( 1011): ActivityRecord{42c428e8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.DCSWifiNetworkSelector t-1} Support Split:false Is ScreenFull:true
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{41b7f2d0 u0 com.synchronoss.dcs.att.r2g/.ATTSplash t8}
+D/ActivityManager( 1011): resumeTopActivityLocked: Pausing null
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{41b7f2d0 u0 com.synchronoss.dcs.att.r2g/.ATTSplash t8} state=PAUSING
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{41b7f2d0 u0 com.synchronoss.dcs.att.r2g/.ATTSplash t8} (pause complete)
+D/ActivityManager( 1011): resumeTopActivityLocked: Restarting ActivityRecord{42c428e8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.DCSWifiNetworkSelector t8}
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{42c428e8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.DCSWifiNetworkSelector t8} (starting new instance)
+I/ActivityManager( 5284): Timeline: Activity_launch_request id:com.synchronoss.dcs.att.r2g time:345145172
+I/ActivityManager( 1011): START u0 {cmp=com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.wifi.WifiNetworkListActivity (has extras)} from pid 5284
+I/ActivityManager( 1011): ActivityRecord{429e3fb8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.wifi.WifiNetworkListActivity t-1} Support Split:false Is ScreenFull:true
+V/ActivityManager( 1011): Moving to PAUSING: ActivityRecord{42c428e8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.DCSWifiNetworkSelector t8}
+D/ActivityManager( 1011): resumeTopActivityLocked: Pausing null
+V/ActivityManager( 1011): resumeTopActivityLocked: Skip resume: need to start pausing
+D/ActivityManager( 1011): allPausedActivitiesComplete: r=ActivityRecord{42c428e8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.DCSWifiNetworkSelector t8} state=PAUSING
+V/ActivityManager( 1011): Moving to PAUSED: ActivityRecord{42c428e8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.DCSWifiNetworkSelector t8} (pause complete)
+D/ActivityManager( 1011): resumeTopActivityLocked: Restarting ActivityRecord{429e3fb8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.wifi.WifiNetworkListActivity t8}
+V/ActivityManager( 1011): Moving to RESUMED: ActivityRecord{429e3fb8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.wifi.WifiNetworkListActivity t8} (starting new instance)
+I/ActivityManager( 1011): Displayed com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.wifi.WifiNetworkListActivity: +921ms (total +1s235ms)
+I/ActivityManager( 1011): Timeline: Activity_windows_visible id: ActivityRecord{429e3fb8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.wifi.WifiNetworkListActivity t8} time:345146537
+I/ActivityManager( 5284): Timeline: Activity_idle id: android.os.BinderProxy@41ecda90 time:345146586
+I/ActivityManager( 5284): Timeline: Activity_idle id: android.os.BinderProxy@422aea98 time:345146590
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{41b7f2d0 u0 com.synchronoss.dcs.att.r2g/.ATTSplash t8} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPING: ActivityRecord{42c428e8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.DCSWifiNetworkSelector t8} (stop requested)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{41b7f2d0 u0 com.synchronoss.dcs.att.r2g/.ATTSplash t8} (stop complete)
+V/ActivityManager( 1011): Moving to STOPPED: ActivityRecord{42c428e8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.DCSWifiNetworkSelector t8} (stop complete)
+I/ActivityManager( 1011): Start proc com.google.android.gms for service com.google.android.gms/.app.service.PackageBroadcastService: pid=5370 uid=10010 gids={50010, 3003, 1007, 1028, 1015, 3002, 3001, 3007, 2001, 3006}
+I/ActivityManager( 1011): Start proc com.android.contacts for broadcast com.android.contacts/.quickcontact.PackageIntentReceiver: pid=5374 uid=10021 gids={50021, 3003, 1028, 1015, 1023, 4002}
+I/ActivityManager( 1011): Process com.lge.qmemoplus.quickmode (pid 4152) has died.
+D/ActivityManager( 1011): resumeTopActivityLocked: Top activity resumed ActivityRecord{429e3fb8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.wifi.WifiNetworkListActivity t8}
+I/ActivityManager( 1011): Start proc com.android.gallery3d for broadcast com.android.gallery3d/.app.PackagesMonitor: pid=5409 uid=10025 gids={50025, 3003, 1028, 1015, 1023, 4002, 4003}
+I/ActivityManager( 1011): Killing 2805:com.google.android.talk/u0a71 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Top activity resumed ActivityRecord{429e3fb8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.wifi.WifiNetworkListActivity t8}
+I/ActivityManager( 1011): Start proc com.lge.lockscreensettings for broadcast com.lge.lockscreensettings/.PackageIntentReceiver: pid=5441 uid=10078 gids={50078, 1028, 1015}
+I/ActivityManager( 1011): Killing 2687:com.lge.email/u0a23 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Top activity resumed ActivityRecord{429e3fb8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.wifi.WifiNetworkListActivity t8}
+I/ActivityManager( 1011): Killing 2871:com.lge.p2p.msg/u0a81 (adj 15): empty #14
+D/ActivityManager( 1011): resumeTopActivityLocked: Top activity resumed ActivityRecord{429e3fb8 u0 com.synchronoss.dcs.att.r2g/com.synchronoss.dcs.wifi.WifiNetworkListActivity t8}
