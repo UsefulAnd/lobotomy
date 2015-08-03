@@ -29,3 +29,5 @@ Lobotomoy is an Android security toolkit with many features that automate differ
 - Instrumentation with Frida
 - Web UI and Services
 
+## Installation
+
