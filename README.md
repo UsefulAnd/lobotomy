@@ -68,7 +68,7 @@ In order to use the Frida instrumentation module please make sure you have pushe
 
 ```root@android:/ # /data/local/tmp/frida-server```
 
-Make sure you change the IP in framework/config to your local network IP.  This is used for the interactions with the deployed web services.
+Make sure you change the IP in **framework/config** to your local network IP.  This is used for the interactions with the deployed web services.
 
 
 ## Issues 
