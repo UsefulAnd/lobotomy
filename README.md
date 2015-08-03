@@ -72,6 +72,12 @@ Make sure you change the IP in **framework/config** to your local network IP.  T
 
 ## Usage
 
+## Start Web Server
+
+```
+[~/Tools/mobile/android/lobotomy]> python web/run.py runserver -h 0.0.0.0
+```
+
 ### Loading an APK
 
 ```
