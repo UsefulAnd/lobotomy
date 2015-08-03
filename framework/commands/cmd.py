@@ -137,6 +137,7 @@ class Run(Lobotomy):
             from framework.brains.apk.enumeration.attack_surface import AttackSurface
             c = AttackSurface(globals()["apk"])
             c.enum_attack_surface()
+            
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import AttackSurface"))
             Logger.do_logger(e.message)
@@ -156,6 +157,7 @@ class Run(Lobotomy):
             from framework.brains.apk.debuggable import Debuggable
             d = Debuggable(args.split()[0], args.split()[1])
             d.do_debuggable()
+
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Debuggable"))
             Logger.do_logger(e.message)
@@ -180,6 +182,7 @@ class Run(Lobotomy):
             from framework.brains.dex2jar.d2j import D2J
             d = D2J(args.split()[0], args.split()[1])
             d.run_d2j()
+
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import D2J"))
             Logger.do_logger(e.message)
@@ -234,6 +237,7 @@ class Run(Lobotomy):
             from framework.brains.dynamic.logcat import Logcat
             l = Logcat()
             l.run_logcat()
+
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Logcat"))
             Logger.do_logger(e.message)
@@ -253,6 +257,7 @@ class Run(Lobotomy):
             from framework.brains.dynamic.frida.instrumentation import Instrumentation
             i = Instrumentation(globals()["apk"])
             i.do_instrumentation()
+
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Instrumentation"))
             Logger.do_logger(e.message)
