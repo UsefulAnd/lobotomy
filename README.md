@@ -4,6 +4,7 @@ Lobotomoy is an Android security toolkit with many features that automate differ
 
 ## Features
 
-APK decompilation
-APK conversion with Dex2Jar
+- APK decompilation
+- APK conversion with Dex2Jar
+- Convert APK to a debuggable APK
 
