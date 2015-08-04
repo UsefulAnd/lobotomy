@@ -58,14 +58,15 @@ class Bowser(object):
 
         # Target package and activity
         #
-        target = "{0}/{1}".format(self.apk.get_package(), self.apk.get_main_activity())
+        activity = raw_input(t.green("[{0}] ".format(datetime.now()) + t.yellow("Enter the target Activity: ")))
+        target = "{0}/{1}".format(self.apk.get_package(), activity)
 
         print(t.green("[{0}] ".format(datetime.now())) +
               t.yellow("Target URI : ") +
               "{0}".format(target))
         try:
             with open("{0}/framework/config".format(os.getcwd()), "r") as config:
-                ip = config.readline()
+                ip = config.readline().strip("\n")
                 config.close()
 
             url = "http://{0}:5000/services/intent".format(ip)

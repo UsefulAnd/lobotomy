@@ -32,6 +32,7 @@ class Instrumentation(object):
         Dalvik.perform(function () {
 
             var WebView = Dalvik.use("android.webkit.WebView");
+            var WebViewClient = Dalvik.use("android.webkit.WebViewClient");
 
             WebView.loadUrl.overload("java.lang.String").implementation = function (s) {
 
@@ -46,6 +47,16 @@ class Instrumentation(object):
                 send("addJavascriptInterface()");
 
                 this.addJavascriptInterface(o, s);
+            };
+
+            WebViewClient.shouldOverrideUrlLoading.implement = function (o, s) {
+
+
+                send("shouldOverrideUrlLoading()");
+                send(s.toString());
+
+                this.shouldOverrideUrlLoading(o, s);
+
             };
 
         });
