@@ -24,7 +24,6 @@ class Decompile(object):
               self.apk)
 
         try:
-
             Popen("java -jar apktool.jar d {0} -f -o output/{1}".format(self.apk, self.directory),
                   shell=True).wait()
 

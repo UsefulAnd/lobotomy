@@ -54,7 +54,6 @@ class APIPermissionMappings(object):
                                         self.search_method(self.apks, x, e, f.get("method"))
 
                                     elif f.get("methods"):
-
                                         for method in f.get("methods"):
                                             self.search_method(self.apks, x, e, method)
 

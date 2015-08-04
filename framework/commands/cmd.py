@@ -29,9 +29,7 @@ class Run(Lobotomy):
         """
 
         try:
-
             from framework.brains.apk.loader import Loader
-
             loader = Loader(args)
             global apk, apks
             apk, apks = loader.do_loader()
@@ -52,9 +50,7 @@ class Run(Lobotomy):
         """
 
         try:
-
             from framework.brains.apk.decompile import Decompile
-
             decompile = Decompile(args.split()[0], args.split()[1])
             decompile.do_decompile()
 
@@ -74,9 +70,7 @@ class Run(Lobotomy):
         """
 
         try:
-
             from framework.brains.apk.enumeration.profiler import Profiler
-
             p = Profiler(globals()["apk"])
             p.run_profiler()
 
@@ -96,9 +90,7 @@ class Run(Lobotomy):
         """
 
         try:
-
             from framework.brains.apk.enumeration.permissions import Permissions
-
             p = Permissions(globals()["apk"], globals()["apks"])
 
             if args == "list":
@@ -122,12 +114,10 @@ class Run(Lobotomy):
         """
 
         try:
-
             from framework.brains.apk.enumeration.components import Components
-
             c = Components(globals()["apk"])
             c.enum_component()
-
+            
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Components"))
             Logger.do_logger(e.message)
@@ -144,12 +134,10 @@ class Run(Lobotomy):
         """
 
         try:
-
             from framework.brains.apk.enumeration.attack_surface import AttackSurface
-
             c = AttackSurface(globals()["apk"])
             c.enum_attack_surface()
-
+            
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import AttackSurface"))
             Logger.do_logger(e.message)
@@ -166,9 +154,7 @@ class Run(Lobotomy):
         """
 
         try:
-
             from framework.brains.apk.debuggable import Debuggable
-
             d = Debuggable(args.split()[0], args.split()[1])
             d.do_debuggable()
 
@@ -193,9 +179,7 @@ class Run(Lobotomy):
         """
 
         try:
-
             from framework.brains.dex2jar.d2j import D2J
-
             d = D2J(args.split()[0], args.split()[1])
             d.run_d2j()
 
@@ -220,17 +204,14 @@ class Run(Lobotomy):
         """
 
         try:
-
             from framework.brains.bowser.bowser import Bowser
-
             b = Bowser(globals()["apks"], globals()["apk"])
-
+            
             if args.split()[0] == "enum":
                 b.run_bowser()
-
             if args.split()[0] == "parseUri":
                 b.run_parse_uri()
-
+        
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Bowser"))
             Logger.do_logger(e.message)
@@ -253,9 +234,7 @@ class Run(Lobotomy):
         """
 
         try:
-
             from framework.brains.dynamic.logcat import Logcat
-
             l = Logcat()
             l.run_logcat()
 
@@ -275,9 +254,7 @@ class Run(Lobotomy):
         """
 
         try:
-
             from framework.brains.dynamic.frida.instrumentation import Instrumentation
-
             i = Instrumentation(globals()["apk"])
             i.do_instrumentation()
 

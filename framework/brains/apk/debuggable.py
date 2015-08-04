@@ -32,7 +32,6 @@ class Debuggable(object):
               self.apk)
 
         try:
-
             Popen(["java -jar apktool.jar d {0} -f -o output/{1}".format(self.apk, self.directory)],
                   shell=True).wait()
 
@@ -75,7 +74,6 @@ class Debuggable(object):
             Logger.do_logger(e.message)
 
         try:
-
             print(t.green("[{0}] ".format(datetime.now())) +
                   t.yellow("Building APK : ") +
                   self.directory)

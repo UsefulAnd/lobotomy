@@ -25,7 +25,6 @@ class Profiler(object):
         # just in case anything fails
         #
         try:
-
             package, sdk, backups, files = self.apk.get_package(), \
                 self.apk.get_target_sdk_version(), \
                 self.apk.get_element("application", "allowBackup"), \

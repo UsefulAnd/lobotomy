@@ -32,4 +32,3 @@ chmod +x dex2jar-2.0/*
 curl -O http://build.frida.re/frida/android/arm/bin/frida-server
 chmod +x frida-server
 adb forward tcp:27042 tcp:27042
-
