@@ -36,26 +36,23 @@ class Logcat(object):
             # TODO - 07/26/2015
             # Remove hardcoded string and add to enums
             #
-            r = requests.post("http://{0}:5000/services/logcat/update".format(ip), data=data)
+            r = requests.post("http://{0}:5000/services/logcat/update".format(ip.strip("\n")), data=data)
 
             if r.text == "Success":
-                print(t.green("[{0}] ".format(datetime.now())) +
-                      t.cyan("Successfully submitted logs!"))
-
+                print(t.green("[{0}] ".format(datetime.now()) +
+                              t.yellow("Success!")))
             else:
-                print(t.green("[{0}] ".format(datetime.now())) +
-                      t.red("Error! ") +
-                      "Check flask.log")
+                print(t.green("[{0}] ".format(datetime.now()) +
+                              t.red("Error! ") +
+                              "Check flask.log"))
 
         except IOError as e:
-            print(t.red("[{0}] ".format(datetime.now()) +
-                        e.message))
-            Logger.do_logger(e.message)
+            raise e
 
         except requests.ConnectionError as e:
             print(t.red("[{0}] ".format(datetime.now()) +
-                        e.message[0]))
-            Logger.do_logger(e.message[0])
+                        e.response))
+            Logger.do_logger(e.response)
 
         return
 
@@ -71,7 +68,6 @@ class Logcat(object):
                   t.red("adb logcat is taking too long to execute!")))
 
             process.kill()
-            return
 
         # Call
         # http_handler() with output
@@ -105,7 +101,7 @@ class Logcat(object):
                     # object and handle process timeouts
                     # with a callback
                     #
-                    thread = Timer(2.0, self.timeout, [p])
+                    thread = Timer(3.0, self.timeout, [p])
                     thread.start()
                     thread.join()
 
@@ -118,5 +114,3 @@ class Logcat(object):
                     print(t.red("[{0}] ".format(datetime.now()) +
                                 e.message))
                     Logger.do_logger(e.message)
-
-        return
