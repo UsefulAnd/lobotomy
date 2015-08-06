@@ -175,7 +175,7 @@ class Run(Lobotomy):
 
         Requirements: Target APK
 
-        Usage: d2j </path/to/apk>
+        Usage: d2j <directory_name> </path/to/apk>
         """
 
         try:

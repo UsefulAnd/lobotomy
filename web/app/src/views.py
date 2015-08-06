@@ -1,3 +1,4 @@
+import os
 from flask import render_template
 from . import src
 
@@ -18,7 +19,7 @@ def logcat_view():
     logs = ""
 
     try:
-        with open("app/logs/logcat.log", "r+") as log:
+        with open("web/app/logs/logcat.log", "r+") as log:
             logs = log.read()
             log.close()
     except IOError as e:
@@ -26,7 +27,7 @@ def logcat_view():
             # Write Logcat data
             # to logcat.log
             #
-            with open("app/logs/flask.log", "w") as log:
+            with open("web/app/logs/flask.log", "w") as log:
                 log.write(e.message)
                 log.close()
 

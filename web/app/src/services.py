@@ -42,7 +42,7 @@ def logcat_service(method):
                 # Write Logcat data
                 # to logcat.log
                 #
-                with open("app/logs/logcat.log", "w") as log:
+                with open("web/app/logs/logcat.log", "w") as log:
                     log.write(request.form["data"])
                     log.close()
 
@@ -54,7 +54,7 @@ def logcat_service(method):
                     # Write Logcat data
                     # to logcat.log
                     #
-                    with open("app/logs/flask.log", "w") as log:
+                    with open("web/app/logs/flask.log", "w") as log:
                         log.write(e.message)
                         log.close()
 
