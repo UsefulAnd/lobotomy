@@ -47,7 +47,9 @@ class Logcat(object):
                               "Check flask.log"))
 
         except IOError as e:
-            raise e
+            print(t.red("[{0}] ".format(datetime.now()) +
+                        e))
+            Logger.do_logger(e)
 
         except requests.ConnectionError as e:
             print(t.red("[{0}] ".format(datetime.now()) +
@@ -65,9 +67,7 @@ class Logcat(object):
 
         if process.poll() is None:
             print(t.green("[{0}] ".format(datetime.now()) +
-                  t.red("adb logcat is taking too long to execute!")))
-
-            process.kill()
+                  t.yellow("Gathering logs ...")))
 
         # Call
         # http_handler() with output
