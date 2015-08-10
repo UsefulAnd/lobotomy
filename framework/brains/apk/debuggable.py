@@ -1,3 +1,4 @@
+import os
 from framework.logging.logger import Logger
 from subprocess import Popen
 from datetime import datetime
@@ -38,7 +39,7 @@ class Debuggable(object):
             print(t.green("[{0}] ".format(datetime.now())) +
                   t.yellow("Adding android:debuggable=\"true\""))
 
-            with open("output/parkme/AndroidManifest.xml", "r+") as manifest:
+            with open("output/{0}/AndroidManifest.xml".format(self.directory), "r+") as manifest:
 
                 # Using parseString() will prevent
                 # XML file size issues
