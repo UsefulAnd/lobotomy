@@ -32,11 +32,11 @@ class Run(Lobotomy):
             from framework.brains.apk.loader import Loader
             loader = Loader(args)
             global apk, apks
-            apk, apks = loader.do_loader()
+            apk, apks = loader.run_loader()
 
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Loader"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
 
     @staticmethod
     def do_decompile(args):
@@ -52,11 +52,11 @@ class Run(Lobotomy):
         try:
             from framework.brains.apk.decompile import Decompile
             decompile = Decompile(args.split()[0], args.split()[1])
-            decompile.do_decompile()
+            decompile.run_decompile()
 
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Decompile"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
 
     @staticmethod
     def do_profiler(args):
@@ -76,7 +76,7 @@ class Run(Lobotomy):
 
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Profiler"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
 
     @staticmethod
     def do_permissions(args):
@@ -94,13 +94,13 @@ class Run(Lobotomy):
             p = Permissions(globals()["apk"], globals()["apks"])
 
             if args == "list":
-                p.list_permissions()
+                p.run_list_permissions()
             if args == "map":
-                p.map_permissions()
+                p.run_map_permissions()
 
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Permissions"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
 
     @staticmethod
     def do_components(args):
@@ -120,7 +120,7 @@ class Run(Lobotomy):
             
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Components"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
 
     @staticmethod
     def do_attacksurface(args):
@@ -136,11 +136,11 @@ class Run(Lobotomy):
         try:
             from framework.brains.apk.enumeration.attack_surface import AttackSurface
             c = AttackSurface(globals()["apk"])
-            c.enum_attack_surface()
+            c.run_enum_attack_surface()
             
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import AttackSurface"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
 
     @staticmethod
     def do_debuggable(args):
@@ -156,11 +156,11 @@ class Run(Lobotomy):
         try:
             from framework.brains.apk.debuggable import Debuggable
             d = Debuggable(args.split()[0], args.split()[1])
-            d.do_debuggable()
+            d.run_debuggable()
 
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Debuggable"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
 
     # dex2jar
     # --------------------
@@ -185,7 +185,7 @@ class Run(Lobotomy):
 
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import D2J"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
 
     # Bowser
     # --------------------
@@ -214,7 +214,7 @@ class Run(Lobotomy):
         
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Bowser"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
 
     # Dynamic
     # --------------------
@@ -240,7 +240,7 @@ class Run(Lobotomy):
 
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Logcat"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
 
     @staticmethod
     def do_frida(args):
@@ -256,8 +256,8 @@ class Run(Lobotomy):
         try:
             from framework.brains.dynamic.frida.instrumentation import Instrumentation
             i = Instrumentation(globals()["apk"])
-            i.do_instrumentation()
+            i.run_instrumentation()
 
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Instrumentation"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)

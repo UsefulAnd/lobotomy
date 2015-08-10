@@ -108,9 +108,9 @@ class Logcat(object):
                 except CalledProcessError as e:
                     print(t.red("[{0}] ".format(datetime.now()) +
                                 e.returncode))
-                    Logger.do_logger(e.message)
+                    Logger.run_logger(e.message)
 
                 except IOError as e:
                     print(t.red("[{0}] ".format(datetime.now()) +
                                 e.message))
-                    Logger.do_logger(e.message)
+                    Logger.run_logger(e.message)

@@ -1,4 +1,3 @@
-import os
 from framework.logging.logger import Logger
 from subprocess import Popen
 from datetime import datetime
@@ -16,7 +15,7 @@ class Debuggable(object):
         self.directory = directory
         self.apk = apk
 
-    def do_debuggable(self):
+    def run_debuggable(self):
 
         """
         This will take a target APK decompile with
@@ -64,15 +63,15 @@ class Debuggable(object):
 
         except OSError as e:
             print(t.red("[{0}]".format(datetime.now()) + "Process exception, check the logs"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
 
         except IOError as e:
             print(t.red("[{0}]".format(datetime.now()) + "IO exception, check the logs"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
 
         except DOMException as e:
             print(t.red("[{0}]".format(datetime.now()) + "XML exception, check the logs"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
 
         try:
             print(t.green("[{0}] ".format(datetime.now())) +
@@ -108,4 +107,4 @@ class Debuggable(object):
 
         except OSError as e:
             print(t.red("[{0}]".format(datetime.now()) + "Process exception, check the logs"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)

@@ -55,4 +55,4 @@ class Profiler(object):
             #
             print(t.green("[{0}] ".format(datetime.now()) +
                           t.red(e.message)))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)

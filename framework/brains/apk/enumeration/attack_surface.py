@@ -13,7 +13,7 @@ class AttackSurface(object):
         self.apk = apk
 
     @staticmethod
-    def parse_xml(xml, component, name):
+    def run_parse_xml(xml, component, name):
 
         """
         Parse the XML object (AndroidManifest.xml)
@@ -179,9 +179,9 @@ class AttackSurface(object):
 
         except DOMException as e:
             print(t.red("[{0}]".format(datetime.now()) + "XML exception, check the logs"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
 
-    def enum_attack_surface(self):
+    def run_enum_attack_surface(self):
 
         """
         Enumerate the attacksurface for the target APK
@@ -201,7 +201,7 @@ class AttackSurface(object):
         # Enumerate activities
         #
         for activity in activities:
-            self.parse_xml(self.apk.get_AndroidManifest(), "activity", activity)
+            self.run_parse_xml(self.apk.get_AndroidManifest(), "activity", activity)
             filters = self.apk.get_intent_filters("activity", activity)
             for key, values in filters.items():
                 if key == "action":
@@ -222,7 +222,7 @@ class AttackSurface(object):
         # Enumerate receivers
         #
         for receiver in receivers:
-            self.parse_xml(self.apk.get_AndroidManifest(), "receiver", receiver)
+            self.run_parse_xml(self.apk.get_AndroidManifest(), "receiver", receiver)
             filters = self.apk.get_intent_filters("receiver", receiver)
             for key, values in filters.items():
                 if key == "action":
@@ -243,7 +243,7 @@ class AttackSurface(object):
         # Enumerate providers
         #
         for provider in providers:
-            self.parse_xml(self.apk.get_AndroidManifest(), "provider", provider)
+            self.run_parse_xml(self.apk.get_AndroidManifest(), "provider", provider)
             filters = self.apk.get_intent_filters("provider", provider)
             for key, values in filters.items():
                 if key == "action":
@@ -264,7 +264,7 @@ class AttackSurface(object):
         # Enumerate services
         #
         for service in services:
-            self.parse_xml(self.apk.get_AndroidManifest(), "service", services)
+            self.run_parse_xml(self.apk.get_AndroidManifest(), "service", services)
             filters = self.apk.get_intent_filters("service", services)
             for key, values in filters.items():
                 if key == "action":

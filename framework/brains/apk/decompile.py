@@ -13,10 +13,10 @@ class Decompile(object):
         self.apk = apk
         self.directory = directory
 
-    def do_decompile(self):
+    def run_decompile(self):
 
         """
-        Decompile target APK with apktool
+        Decompile target APK with apktool.jar
         """
 
         print(t.green("[{0}] ".format(datetime.now())) +
@@ -32,4 +32,4 @@ class Decompile(object):
 
         except CalledProcessError as e:
             print(t.red("[{0}] ".format(datetime.now)) + e.returncode)
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)

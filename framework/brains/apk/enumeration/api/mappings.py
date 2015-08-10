@@ -14,11 +14,11 @@ class APIPermissionMappings(object):
         self.apks = apks
 
     @staticmethod
-    def search_method(apks, x, clz, method):
+    def run_search_method(apks, x, clz, method):
 
         analysis.show_Paths(apks, x.get_tainted_packages().search_methods(clz, method, "."))
 
-    def find_mapping(self):
+    def run_find_mapping(self):
 
         """
         Map permissions to API calls with the analyzed
@@ -51,11 +51,11 @@ class APIPermissionMappings(object):
                                           e))
 
                                     if f.get("method"):
-                                        self.search_method(self.apks, x, e, f.get("method"))
+                                        self.run_search_method(self.apks, x, e, f.get("method"))
 
                                     elif f.get("methods"):
                                         for method in f.get("methods"):
-                                            self.search_method(self.apks, x, e, method)
+                                            self.run_search_method(self.apks, x, e, method)
 
                             elif b.get("classes"):
                                 for g, h in b.get("classes").items():
@@ -64,8 +64,8 @@ class APIPermissionMappings(object):
                                           g))
 
                                     if h.get("method"):
-                                        self.search_method(self.apks, x, g, h.get("method"))
+                                        self.run_search_method(self.apks, x, g, h.get("method"))
 
                                     elif h.get("methods"):
                                         for method in h.get("methods"):
-                                            self.search_method(self.apks, x, g, method)
+                                            self.run_search_method(self.apks, x, g, method)

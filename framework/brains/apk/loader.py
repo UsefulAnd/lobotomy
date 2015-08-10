@@ -12,7 +12,7 @@ class Loader(object):
         super(Loader, self).__init__()
         self.apk = apk
 
-    def do_loader(self):
+    def run_loader(self):
 
         """
         Load the target APK and return

@@ -113,7 +113,7 @@ class Instrumentation(object):
 
         return activities
 
-    def do_instrumentation(self):
+    def run_instrumentation(self):
 
         """
         Select and run instrumentation function using the
@@ -160,14 +160,14 @@ class Instrumentation(object):
             except frida.ProcessNotFoundError as e:
                 print(t.red("[{0}] ".format(datetime.now()) +
                             "Could not connect to target process!"))
-                Logger.do_logger(e.message)
+                Logger.run_logger(e.message)
             except frida.ServerNotRunningError as e:
                 print(t.red("[{0}] ".format(datetime.now()) +
                             "The frida-server is not running!"))
-                Logger.do_logger(e.message)
-            except frida.TransportError:
+                Logger.run_logger(e.message)
+            except frida.TransportError as e:
                 print(t.red("[{0}] ".format(datetime.now()) +
                             "Connection was closed!"))
-                Logger.do_logger(e.message)
+                Logger.run_logger(e.message)
             except KeyboardInterrupt:
                 pass

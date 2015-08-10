@@ -40,7 +40,7 @@ class Components(object):
         #
         if self.apk.get_main_activity():
             print(t.green("[{0}] ".format(datetime.now()) +
-                          t.yellow("Main activity : ") +
+                          t.yellow("Main Activity : ") +
                           self.apk.get_main_activity()))
 
         if len(activities) != 0:

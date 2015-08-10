@@ -12,7 +12,7 @@ class Permissions(object):
         self.apk = apk
         self.apks = apks
 
-    def list_permissions(self):
+    def run_list_permissions(self):
 
         """
         List the permissions within the target APK
@@ -25,11 +25,11 @@ class Permissions(object):
                   t.yellow("Permission: ") +
                   permission)
 
-    def map_permissions(self):
+    def run_map_permissions(self):
 
         """
         Map permissions within the target APK to API calls
         """
 
         mappings = APIPermissionMappings(self.apk, self.apks)
-        mappings.find_mapping()
+        mappings.run_find_mapping()

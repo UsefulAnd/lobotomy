@@ -78,4 +78,4 @@ class Bowser(object):
 
         except IOError as e:
             print(t.red("[{0}]".format(datetime.now()) + "Unable to read config"))
-            Logger.do_logger(e.message)
+            Logger.run_logger(e.message)
