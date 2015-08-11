@@ -261,3 +261,30 @@ class Run(Lobotomy):
         except ImportError as e:
             print(t.red("[{0}] ".format(datetime.now()) + "Unable to import Instrumentation"))
             Logger.run_logger(e.message)
+
+    # Surgical
+    # --------------------
+    # This module is designed to attempt and find
+    # potential vulnerabilities
+    #
+
+    @staticmethod
+    def do_surgical(args):
+
+        """
+        Description: Instantiates the SurgicalAPI with available functions and operations
+
+        Requirements: Loaded APK
+
+        Usage: surgical
+        """
+
+        try:
+            from framework.brains.surgical.api import SurgicalAPI
+
+            s = SurgicalAPI(globals()["apks"])
+            s.run_surgical()
+
+        except ImportError as e:
+            print(t.red("[{0}] ".format(datetime.now()) + "Unable to import the SurgicalAPI"))
+            Logger.run_logger(e.message)
