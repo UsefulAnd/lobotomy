@@ -36,7 +36,8 @@ class AttackSurface(object):
 
                 for activity in activities:
 
-                    if activity.getAttribute("android:name") == name:
+                    if activity.getAttribute("android:name") == name \
+                            or activity.getAttribute("android:name").split(".")[-1] == name.split(".")[-1]:
 
                         # Enumerate exported Activities
                         #
