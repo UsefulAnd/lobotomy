@@ -169,12 +169,12 @@ class AttackSurface(object):
                                               t.cyan("Found exported service!")))
 
                                 print(t.green("[{0}] ".format(datetime.now()) +
-                                              t.cyan("{0} : exported : ".format(name)) +
+                                              t.yellow("{0} : exported : ".format(name)) +
                                               "{0}".format(service.getAttribute("android:exported"))))
 
                             if service.getAttribute("android:process"):
                                 print(t.green("[{0}] ".format(datetime.now()) +
-                                              t.cyan("{0} : process : ".format(name)) +
+                                              t.yellow("{0} : process : ".format(name)) +
                                               "{0}".format(service.getAttribute("android:process"))))
 
         except DOMException as e:
@@ -264,7 +264,7 @@ class AttackSurface(object):
         # Enumerate services
         #
         for service in services:
-            self.run_parse_xml(self.apk.get_AndroidManifest(), "service", services)
+            self.run_parse_xml(self.apk.get_AndroidManifest(), "service", service)
             filters = self.apk.get_intent_filters("service", services)
             for key, values in filters.items():
                 if key == "action":
