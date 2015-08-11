@@ -2,18 +2,16 @@ from datetime import datetime
 from androguard.core.bytecodes.apk import APK
 from androguard.core.androgen import AndroguardS
 from blessings import Terminal
+
 t = Terminal()
 
 
 class Loader(object):
-
     def __init__(self, apk):
-
         super(Loader, self).__init__()
         self.apk = apk
 
     def run_loader(self):
-
         """
         Load the target APK and return
         the loaded instance, which will

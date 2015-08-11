@@ -1,5 +1,4 @@
 class ADBEnum(object):
-
     commands = {
 
         "am start": "adb shell am start"
@@ -8,7 +7,6 @@ class ADBEnum(object):
 
 
 class D2JEnum(object):
-
     commands = {
 
         "decompile": "dex2jar-2.0/d2j-dex2jar.sh --force --output"
@@ -17,7 +15,6 @@ class D2JEnum(object):
 
 
 class APIMappings(object):
-
     mappings = {
 
         "install_shortcut":
@@ -66,7 +63,7 @@ class APIMappings(object):
 
                                     ]
 
-                                },
+                            },
 
                         "android.telephony.ServiceState":
 
@@ -112,7 +109,7 @@ class APIMappings(object):
 
                                     ]
 
-                                },
+                            },
 
                         "android.telephony.TelephonyManager":
 
@@ -155,7 +152,7 @@ class APIMappings(object):
 
                                     ]
 
-                                },
+                            },
 
                         "android.telephony.TelephonyManager":
 

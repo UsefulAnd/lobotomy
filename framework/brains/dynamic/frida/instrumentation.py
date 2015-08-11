@@ -4,11 +4,11 @@ from framework.logging.logger import Logger
 from subprocess import Popen
 from datetime import datetime
 from blessings import Terminal
+
 t = Terminal()
 
 
 class Instrumentation(object):
-
     def __init__(self, apk):
 
         super(Instrumentation, self).__init__()

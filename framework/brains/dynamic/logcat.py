@@ -5,11 +5,11 @@ from threading import Timer
 from framework.logging.logger import Logger
 from datetime import datetime
 from blessings import Terminal
+
 t = Terminal()
 
 
 class Logcat(object):
-
     def __int__(self):
 
         super(Logcat, self).__init__()
@@ -49,12 +49,12 @@ class Logcat(object):
         except IOError as e:
             print(t.red("[{0}] ".format(datetime.now()) +
                         e))
-            Logger.do_logger(e)
+            Logger.run_logger(e)
 
         except requests.ConnectionError as e:
             print(t.red("[{0}] ".format(datetime.now()) +
                         e.response))
-            Logger.do_logger(e.response)
+            Logger.run_logger(e.response)
 
         return
 
@@ -67,7 +67,7 @@ class Logcat(object):
 
         if process.poll() is None:
             print(t.green("[{0}] ".format(datetime.now()) +
-                  t.yellow("Gathering logs ...")))
+                          t.yellow("Gathering logs ...")))
 
         # Call
         # http_handler() with output
@@ -90,7 +90,7 @@ class Logcat(object):
 
             elif result == "Y":
                 keyword = raw_input(t.green("[{0}] ".format(datetime.now()) +
-                                    t.yellow("Enter keyword search : ")))
+                                            t.yellow("Enter keyword search : ")))
                 try:
                     p = Popen("adb logcat -d | grep {0}".format(keyword),
                               stdout=PIPE,

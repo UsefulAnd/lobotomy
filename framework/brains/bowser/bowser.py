@@ -5,11 +5,11 @@ from framework.logging.logger import Logger
 from subprocess import Popen
 from androguard.core.analysis import analysis
 from blessings import Terminal
+
 t = Terminal()
 
 
 class Bowser(object):
-
     def __init__(self, apks, apk):
 
         super(Bowser, self).__init__()

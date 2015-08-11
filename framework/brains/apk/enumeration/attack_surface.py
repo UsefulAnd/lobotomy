@@ -2,11 +2,11 @@ from datetime import datetime
 from blessings import Terminal
 from framework.logging.logger import Logger
 from xml.dom import DOMException
+
 t = Terminal()
 
 
 class AttackSurface(object):
-
     def __init__(self, apk):
 
         super(AttackSurface, self).__init__()
@@ -111,8 +111,8 @@ class AttackSurface(object):
 
                             if results:
                                 print(t.green("[{0}]".format(datetime.now()) +
-                                      t.yellow(" {0} : ".format(name)) +
-                                      t.cyan("Found Activity with schemes!")))
+                                              t.yellow(" {0} : ".format(name)) +
+                                              t.cyan("Found Activity with schemes!")))
 
                                 for r in results:
                                     print(t.green("[{0}] ".format(datetime.now()) +
@@ -174,8 +174,8 @@ class AttackSurface(object):
 
                             if service.getAttribute("android:process"):
                                 print(t.green("[{0}] ".format(datetime.now()) +
-                                      t.cyan("{0} : process : ".format(name)) +
-                                      "{0}".format(service.getAttribute("android:process"))))
+                                              t.cyan("{0} : process : ".format(name)) +
+                                              "{0}".format(service.getAttribute("android:process"))))
 
         except DOMException as e:
             print(t.red("[{0}]".format(datetime.now()) + "XML exception, check the logs"))

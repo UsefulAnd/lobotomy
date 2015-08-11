@@ -21,6 +21,10 @@ class InsecureStorage(object):
 
     def run(self):
 
+        """
+        Search for storage API usage within target class and methods
+        """
+
         x = analysis.uVMAnalysis(self.apks.get_vm())
         vm = self.apks.get_vm()
 
