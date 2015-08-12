@@ -4,7 +4,6 @@ from framework.logging.logger import Logger
 from subprocess import Popen
 from datetime import datetime
 from blessings import Terminal
-
 t = Terminal()
 
 
