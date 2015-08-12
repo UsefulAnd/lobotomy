@@ -4,9 +4,15 @@ from blessings import Terminal
 t = Terminal()
 
 
-class InternalStorageEnum(object):
+class InsecureStorageEnum(object):
 
-    values = ["getExternalFilesDir", "getSharedPreferences"]
+    values = [
+
+        "getExternalFilesDir",
+        "getSharedPreferences",
+        "openFileOutput"
+        "openFileInput"
+    ]
 
 
 class InsecureStorage(object):
@@ -17,7 +23,7 @@ class InsecureStorage(object):
 
         super(InsecureStorage, self).__init__()
         self.apks = apks
-        self.enum = InternalStorageEnum()
+        self.enum = InsecureStorageEnum()
 
     def run(self):
 
