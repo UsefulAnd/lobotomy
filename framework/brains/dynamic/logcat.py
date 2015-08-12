@@ -5,7 +5,6 @@ from threading import Timer
 from framework.logging.logger import Logger
 from datetime import datetime
 from blessings import Terminal
-
 t = Terminal()
 
 
