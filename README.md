@@ -96,6 +96,8 @@ EOF  eof  exit  help  q  quit
 [~/Tools/mobile/android/lobotomy]> python web/run.py runserver -h 0.0.0.0
 ```
 
+UI endpoints are located at: ```/ui/home```
+
 ### Loading an APK
 
 ```
