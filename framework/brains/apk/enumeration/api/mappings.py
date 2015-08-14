@@ -16,7 +16,28 @@ class APIPermissionMappings(object):
     @staticmethod
     def run_search_method(apks, x, clz, method):
 
-        analysis.show_Paths(apks, x.get_tainted_packages().search_methods(clz, method, "."))
+        """
+        Search for API calls and implementation location
+        """
+
+        vm = apks.get_vm()
+        paths = x.get_tainted_packages().search_methods(clz, method, ".")
+
+        if paths:
+            for p in paths:
+                for method in apks.get_methods():
+                    if method.get_name() == p.get_src(vm.get_class_manager())[1]:
+                        if method.get_class_name() == p.get_src(vm.get_class_manager())[0]:
+                                        print(t.green("[{0}] ".format(datetime.now()) +
+                                              t.yellow("Found: ") +
+                                              "{0}".format(method)))
+                                        print(t.green("[{0}] ".format(datetime.now()) +
+                                                      t.yellow("Class: ") +
+                                                      "{0}".format(method.get_class_name())))
+                                        print(t.green("[{0}] ".format(datetime.now()) +
+                                                      t.yellow("Method: ") +
+                                                      "{0}".format(method.get_name())))
+                                        print(method.show())
 
     def run_find_mapping(self):
 

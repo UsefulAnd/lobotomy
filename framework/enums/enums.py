@@ -200,4 +200,31 @@ class APIMappings(object):
 
             },
 
+        "set_debug_app":
+
+            {
+
+                "permission": "android.permission.SET_DEBUG_APP",
+
+                "class":
+
+                    {
+                        "android.os.Debug":
+
+                            {
+                                "methods":
+
+                                    [
+
+                                        "changeDebugPort", "dumpHprofData", "dumpService", "waitForDebugger",
+                                        "waitingForDebugger", "isDebuggerConnected"
+
+                                    ]
+
+                            }
+
+                    },
+
+            }
+
     }
