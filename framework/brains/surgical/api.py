@@ -1,6 +1,7 @@
 from framework.brains.surgical.storage import InsecureStorage
 from framework.brains.surgical.crypto import Crypto
 from framework.brains.surgical.logging import Logging
+from framework.brains.surgical.ipc import IPC
 from datetime import datetime
 from blessings import Terminal
 t = Terminal()
@@ -15,7 +16,8 @@ class SurgicalAPI(object):
         self.storage = InsecureStorage(apks)
         self.crypto = Crypto(apks)
         self.logging = Logging(apks)
-        self.functions = [f for f in self.storage, self.crypto, self.logging]
+        self.ipc = IPC(apks)
+        self.functions = [f for f in self.storage, self.crypto, self.logging, self.ipc]
 
     def run_surgical(self):
 
